@@ -1,0 +1,16 @@
+{
+    "name": "学務情報システム 成績並び替え",
+    "description": "学務情報システムの成績を並び替えられるようにします",
+    "manifest_version": 3,
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://campusweb.office.uec.ac.jp/*"
+            ],
+            "js": [
+                "index.js"
+            ]
+        }
+    ]
+}
